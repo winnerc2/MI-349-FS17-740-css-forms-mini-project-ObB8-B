@@ -14,13 +14,13 @@
     <image class="rounded" width="720p" src="rowerBanner.jpg"/>
     <br><br>
     <p>
-      The race is open to all who are interested, simply fill out the following form,
-      and show up on race day!
+      The race is open to all age 18+, who are interested. Simply fill out the following form,
+      and show up on race day!  Equipment will be supplied.
     </p>
     <form>
       <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
-        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <label for="InputEmail">Email address</label>
+        <input type="text" class="form-control" id="InputEmail" placeholder="Enter email">
       </div>
       <div class="form-group">
          <label for="inputAddress">Address</label>
@@ -37,7 +37,7 @@
         </div>
         <div class="form-group col-md-4">
           <label for="inputState">State</label>
-          <select id="inputState" class="form-control state">
+          <select id="inputState" class="form-control">
             <option value="">N/A</option>
       			<option value="AK">Alaska</option>
       			<option value="AL">Alabama</option>
@@ -110,6 +110,17 @@
           Female
         </label>
       </div>
+      <div class="form-check">
+        <label for="age">Age</label>
+        <input type="text" class="form-control" id="age" placeholder="18+">
+      </div>
+      <label for="t-shirt">T-Shirt Size</label>
+      <select id="t-shirt" class="form-control">
+        <option value="sm">Small</option>
+        <option value="md">Medium</option>
+        <option value="lg">Large</option>
+        <option value="xl">XL</option>
+      </select>
       <div class="form-check">
         <label class="form-check-label">
         <input type="checkbox" class="form-check-input">
